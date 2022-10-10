@@ -108,7 +108,7 @@ importers:
       '@fastify/deepmerge': ^1.1.0
       '@fastify/restartable': ^1.3.1
       '@fastify/static': ^6.5.0
-      '@fastify/swagger': ^7.4.1
+      '@fastify/swagger': ^8.0.0
       '@fastify/under-pressure': ^8.0.0
       '@platformatic/config': workspace:*
       '@platformatic/db-authorization': workspace:*
@@ -155,7 +155,7 @@ importers:
       '@fastify/deepmerge': 1.1.0
       '@fastify/restartable': 1.3.1
       '@fastify/static': 6.5.0
-      '@fastify/swagger': 7.6.1
+      '@fastify/swagger': 8.0.0
       '@fastify/under-pressure': 8.1.0
       '@platformatic/config': link:../config
       '@platformatic/db-authorization': link:../db-authorization
@@ -383,7 +383,7 @@ importers:
   packages/sql-openapi:
     specifiers:
       '@fastify/deepmerge': ^1.1.0
-      '@fastify/swagger': ^7.4.1
+      '@fastify/swagger': ^8.0.0
       '@platformatic/sql-json-schema-mapper': workspace:*
       '@platformatic/sql-mapper': workspace:*
       camelcase: ^6.0.0
@@ -398,7 +398,7 @@ importers:
       tsd: ^0.24.0
     dependencies:
       '@fastify/deepmerge': 1.1.0
-      '@fastify/swagger': 7.6.1
+      '@fastify/swagger': 8.0.0
       '@platformatic/sql-json-schema-mapper': link:../sql-json-schema-mapper
       camelcase: 6.3.0
       fastify-plugin: 4.2.1
@@ -973,10 +973,9 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@fastify/swagger/7.6.1:
-    resolution: {integrity: sha512-fpwblS7aOfnVymdRyKI3Zw/ZNt2u0oGm7KQgQ/itmd4Hlh/LKNNoWg6R/+eLa9H/4JTd34ZRRC3mNKhkVl5Kdw==}
+  /@fastify/swagger/8.0.0:
+    resolution: {integrity: sha512-e+f8U8vwYXV5aXPLvEegGIFitRJi2Peqop10u7Qo5Eoc6jl/ovgK7RU2RA8jyZdCkgX4X8xx5zgaQM85eDoQlg==}
     dependencies:
-      '@fastify/static': 6.5.0
       fastify-plugin: 4.2.1
       json-schema-resolver: 2.0.0
       openapi-types: 12.0.2
